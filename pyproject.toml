@@ -1,0 +1,16 @@
+[project]
+name = "visual-learner"
+version = "0.1.0"
+description = "AI-assisted STEM notes-to-video learning platform scaffold."
+requires-python = ">=3.13,<3.14"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

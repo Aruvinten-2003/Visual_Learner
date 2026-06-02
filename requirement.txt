@@ -1,0 +1,3 @@
+Use `requirements.txt` for Python dependencies.
+
+This file is kept only because it already existed in the project folder.
